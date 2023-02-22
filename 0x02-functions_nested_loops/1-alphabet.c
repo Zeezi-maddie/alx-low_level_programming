@@ -7,20 +7,18 @@
 int main(void)
 {
 	{
-		char i[] = "abcdefghijklmnopqrstuvwxyz";
+		char i;
 
-		for (int t = 0; t < 26; t++)
+		i = 'a';
+
+		while (i <= 'z')
 		{
-			if (i[t] == '\0')
-			{
-				putchar('\n');
-				break;
-			}
-			else
-				putchar(i[t]);
+			putchar(i);
+			i++;
 		}
 		return (0);
 	}
-		void print_alphabet(char i[]);
-		return (0);
+
+	void print_alphabet(void);
+	return (0);
 }
