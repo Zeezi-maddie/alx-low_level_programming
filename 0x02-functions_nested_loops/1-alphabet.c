@@ -9,15 +9,15 @@ int main(void)
 	{
 		char i[] = "abcdefghijklmnopqrstuvwxyz";
 
-		for (int count = 0; count < 26; count++)
+		for (int t = 0; t < 26; t++)
 		{
-			if (i[count] == '\0')
+			if (i[t] == '\0')
 			{
 				putchar('\n');
 				break;
 			}
 			else
-				putchar(i[count]);
+				putchar(i[t]);
 		}
 		return (0);
 	}
