@@ -6,6 +6,9 @@
  */
 int main(void)
 {
+	void print_aplhabet(void);
+	return (0);
+
 	{
 		char i;
 
@@ -18,7 +21,4 @@ int main(void)
 		}
 		return (0);
 	}
-
-	void print_alphabet(void);
-	return (0);
 }
