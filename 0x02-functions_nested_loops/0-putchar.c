@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - Entry point
@@ -5,10 +6,11 @@
  */
 int main(void)
 {
-	char string1[] = "_putchar";
+	char i[8];
 
 	{
-		printf("%s", string1);
+		printf("_putchar");
 	}
+	printf("\n");
 	return (0);
 }
