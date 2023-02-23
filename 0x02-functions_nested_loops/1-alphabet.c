@@ -7,7 +7,6 @@
 int main(void)
 {
 	void print_aplhabet(void);
-	return (0);
 
 	{
 		char i;
@@ -20,6 +19,5 @@ int main(void)
 			i++;
 		}
 		_putchar('\n');
-		return (0);
 	}
 }
