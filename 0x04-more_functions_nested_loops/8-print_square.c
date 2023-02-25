@@ -17,14 +17,13 @@ void print_square(int size)
 	}
 	else
 	{
-		for (side1 = 1; side1 <= size; side1++)
+		for (side1 = 1; side1 < size; side1++)
 		{
-			_putchar('#');
-		for (side2 = 2; side2 <= size; side2++)
-		{
-			_putchar('#');
-		}
-		_putchar('\n');
+			for (side2 = 2; side2 < size; side2++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
 	}
 }
