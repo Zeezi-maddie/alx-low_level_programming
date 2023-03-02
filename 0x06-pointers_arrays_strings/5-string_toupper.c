@@ -9,7 +9,7 @@ char *string_toupper(char *a)
 {
 	int b = 0;
 
-	while (a[b])
+	while (a[b] != '\0')
 	{
 		if (a[b] >= 'a' && a[b] <= 'z')
 		{
