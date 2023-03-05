@@ -14,7 +14,7 @@ int main(void)
 	{
 		c += b;
 		if (c % 2 == 0)
-			d + c;
+			d += c;
 		b = c - b;
 		a++;
 	}
