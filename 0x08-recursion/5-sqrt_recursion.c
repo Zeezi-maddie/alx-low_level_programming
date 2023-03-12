@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
+int _sqrt(int n, int m);
 /**
  * _sqrt - returns square root of a number
  * @n: natural square root
